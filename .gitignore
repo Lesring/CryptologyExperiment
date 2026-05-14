@@ -1,0 +1,43 @@
+*~
+*.tmp
+*.temp
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# C / C++ build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.pdb
+*.ilk
+*.exp
+
+# Build directories
+build/
+cmake-build-*/
+Debug/
+Release/
+x64/
+x86/
+
+# Python cache from generator scripts
+__pycache__/
+*.py[cod]
+
+# Local benchmark outputs
+*.bench
+*.prof
+*.gcda
+*.gcno
+*.gcov
